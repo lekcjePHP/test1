@@ -1,5 +1,7 @@
-print("test")
+# dla 'ola' zwroci 'lo', dla 'kacper': 'epcak'
+def odwracanies(string):
+	newString = string[0:-1]
+	newString.reverse();
+	return newString;
 
-tablica1 = [1,3,4,5,2,7,8,"ala","marysia","jacek"]
-tablica1.sort()
-print(tablica1)
+
